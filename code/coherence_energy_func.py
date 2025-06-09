@@ -57,7 +57,7 @@ wdir='../data/'
 path_temp=wdir+'template_event/'
 path_data=wdir+'rawdata_event_sanjacinto/'
 
-odata_dir='./results/result_event_within50km_4sec/'
+odata_dir='../result/result_event_within50km_4sec/'
 
 if not os.path.exists(odata_dir):
     os.makedirs(odata_dir)
